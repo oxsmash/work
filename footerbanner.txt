@@ -1,0 +1,91 @@
+  <?php 
+						
+						$cmdBannerKanan = "SELECT * FROM cni_banner 
+							WHERE letak_banner = '8' 
+							AND status_banner = '1' 
+							AND (selesai_banner >= '".$timeHariIni."'   
+								AND mulai_banner <= '".$timeHariIni."')
+							AND (limit_banner > jumlah_show)
+							AND tgl_show = '".$timeHariIni."'
+							ORDER BY rand() 
+							LIMIT 2
+							
+							";
+
+						$resBannerKanan = mysql_query($cmdBannerKanan);		
+						$iJoin = 0;
+						$arrJoin = array();
+						while($res=mysql_fetch_assoc($resBannerKanan)){ 
+											
+							$link = "";
+
+							if (trim($res['link_banner'])=="loadJoin()") {
+								$link = 'onclick=loadJoin()';
+								$arrJoin[$iJoin]['id'] = $res[banner_id];
+								$arrJoin[$iJoin]['tipe'] = $res['tipe'];
+								$arrJoin[$iJoin]['file'] = "images/banner/".$res[file_banner];
+								$iJoin++;
+								continue;
+							} else {
+								$link = 'onclick=window.open("klik_banner.php?id='.$res[banner_id].'");';
+							}
+							
+	
+						
+							if($res['tipe'] == 'application/x-shockwave-flash'  ) {
+								
+								$arrSwf = getimagesize("images/banner/".$res['file_banner']);
+								$swfH = $arrSwf[1];
+								$link ="onclick=loadpagehalaman('join_us.php')";
+								echo '
+									<td valign="top" width="290"><a '.$link.' >
+										<embed class="pointer" name="flashfile" src="images/banner/'.$res['file_banner'].'" wmode="transparent" menu="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="280" height="40" style="margin-top : 4px; margin-left: 4px">
+										</embed>
+									</a></td>';
+							
+							}else {
+								echo '<td valign="top" width="290"><a '.$link.' class="pointer"><img border="0" src="images/banner/'.$res['file_banner'].'" width="280" height="40" style="margin-top : 4px; margin-left: 4px"></a><td>';
+							}
+							
+							$cmdUpdateKanan = "UPDATE cni_banner SET 
+												tgl_show = '".date("Y-m-d")."',
+												jumlah_show = jumlah_show + 1 
+												WHERE 	banner_id = '".$res[banner_id]."'";
+												
+							mysql_query($cmdUpdateKanan);	
+
+							log_banner($res[banner_id]);			
+							
+
+						}
+						
+						foreach($arrJoin as $value) {
+							$link = "onclick=loadpagehalaman('join_us.php')";
+							
+
+						
+							if($value['tipe'] == 'application/x-shockwave-flash'  ) {
+								$arrSwf = getimagesize($value['file']);
+								$swfH = $arrSwf[1];
+								$link = "";
+								echo '
+									<td valign="top" width="290"><a '.$link.' >
+										<embed class="pointer" name="flashfile" src="'.$value['file'].'" wmode="transparent" menu="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="280" height="40" style="margin-top : 4px; margin-left: 4px">
+										</embed>
+									</a></td>';
+							
+							}else {
+								echo '<td  valign="top" width="290"><a '.$link.' class="pointer"><img border="0" src="'.$value['file'].'" width="280" height="40" style="margin-top : 4px; margin-left: 4px"> </a></td>';
+							}
+							
+							$cmdUpdateKanan = "UPDATE cni_banner SET 
+												tgl_show = '".date("Y-m-d")."',
+												jumlah_show = jumlah_show + 1 
+												WHERE 	banner_id = '".$value['id']."'";
+												
+							mysql_query($cmdUpdateKanan);	
+
+							log_banner($value['id']);			
+							
+
+						} ?>

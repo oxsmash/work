@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+	<Book id="1">
+		<title>Ardia FM</title>
+		<author>http://jgj.jogjastreamers.com:8000/ardia67890</author>
+		<summary>http://www.jogjastreamers.com/iphpic/Ardia.png</summary>
+	</Book>
+	<Book id="2">
+		<title>Star FM</title>
+		<author>http://jgj.jogjastreamers.com:8000/starfmyk</author>
+		<summary>http://www.jogjastreamers.com/iphpic/starjogja.png</summary>
+	</Book>
+    <Book id="3">
+		<title>swaragama</title>
+		<author>http://jgj.jogjastreamers.com:8000/swaragama456789</author>
+		<summary>http://www.jogjastreamers.com/iphpic/swaragama.png</summary>
+	</Book>
+    <Book id="4">
+		<title>eltira</title>
+		<author>http://jgj.jogjastreamers.com:8000/eltira1021</author>
+		<summary>http://www.jogjastreamers.com/iphpic/eltira.png</summary>
+	</Book>
+    <Book id="5">
+		<title>rakosa</title>
+		<author>http://jgj.jogjastreamers.com:8000/rakosa787878</author>
+		<summary>http://www.jogjastreamers.com/iphpic/rakosa.png</summary>
+	</Book>
+    <Book id="6">
+		<title>qradio</title>
+		<author>http://jgj.jogjastreamers.com:8000/qradio34567</author>
+		<summary>http://www.jogjastreamers.com/iphpic/qradio.png</summary>
+	</Book>
+    <Book id="7">
+		<title>mbs</title>
+		<author>http://jgj.jogjastreamers.com:8000/mbs</author>
+		<summary>http://www.jogjastreamers.com/iphpic/mbsfm.png</summary>
+	</Book>
+    <Book id="8">
+		<title>soloradio</title>
+		<author>http://jgj.jogjastreamers.com:8000/soloradio151515</author>
+		<summary>http://www.jogjastreamers.com/iphpic/soloradio.png</summary>
+	</Book>
+    <Book id="9">
+		<title>salma</title>
+		<author>http://jgj.jogjastreamers.com:8000/salma</author>
+		<summary>http://www.jogjastreamers.com/iphpic/salmaradio.png</summary>
+	</Book>
+    <Book id="10">
+		<title>impactfm</title>
+		<author>http://jgj.jogjastreamers.com:8000/impactfm</author>
+		<summary>http://www.jogjastreamers.com/iphpic/impact.png</summary>
+	</Book>
+    <Book id="11">
+		<title>geronimo</title>
+		<author>http://jgj.jogjastreamers.com:8000/geronimo67890</author>
+		<summary>http://www.jogjastreamers.com/iphpic/geronimo.png</summary>
+	</Book>
+    <Book id="12">
+		<title>immanuel</title>
+		<author>http://jgj.jogjastreamers.com:8000/immanuel</author>
+		<summary>http://www.jogjastreamers.com/iphpic/immanuel.png</summary>
+	</Book>
+    <Book id="13">
+		<title>kr</title>
+		<author>http://jgj.jogjastreamers.com:8000/kr13579</author>
+		<summary>http://www.jogjastreamers.com/iphpic/krradio.png</summary>
+	</Book>
+    <Book id="14">
+		<title>aquarius</title>
+		<author>http://jgj.jogjastreamers.com:8000/aquarius36511</author>
+		<summary>http://www.jogjastreamers.com/iphpic/aquarious.png</summary>
+	</Book>
+    <Book id="15">
+		<title>karysma</title>
+		<author>http://jgj.jogjastreamers.com:8000/karysma112255</author>
+		<summary>http://www.jogjastreamers.com/iphpic/karysma.png</summary>
+	</Book>
+    <Book id="16">
+		<title>jogjafamily</title>
+		<author>http://jgj.jogjastreamers.com:8000/jogjafamily</author>
+		<summary>http://www.jogjastreamers.com/iphpic/jogjafamily.png</summary>
+	</Book>
+    <Book id="17">
+		<title>buanaasri</title>
+		<author>http://jgj.jogjastreamers.com:8000/buanaasri</author>
+		<summary>http://www.jogjastreamers.com/iphpic/buanaasri.png</summary>
+	</Book>
+    <Book id="18">
+		<title>dianswara</title>
+		<author>http://jgj.jogjastreamers.com:8000/dianswara</author>
+		<summary>http://www.jogjastreamers.com/iphpic/dianswara.png</summary>
+	</Book>
+    <Book id="19">
+		<title>rgmfm</title>
+		<author>http://jgj.jogjastreamers.com:8000/rgmfm</author>
+		<summary>http://www.jogjastreamers.com/iphpic/rgmglobal.png</summary>
+	</Book>
+    <Book id="20">
+		<title>handayanifm</title>
+		<author>http://jgj.jogjastreamers.com:8000/handayanifm</author>
+		<summary>http://www.jogjastreamers.com/iphpic/handayani.png</summary>
+	</Book>
+    <Book id="21">
+		<title>unimmafm</title>
+		<author>http://jgj.jogjastreamers.com:8000/unimmafm</author>
+		<summary>http://www.jogjastreamers.com/iphpic/unimma.png</summary>
+	</Book>
+</Books>

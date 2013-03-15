@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Playlist>
+	<Radio id="1">
+		<fullname>Ardia FM 104,1 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/ardia67890</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/Ardia.png</pic>
+	</Radio>
+	<Radio id="2">
+		<fullname>Star Jogja 101,3 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/starfmyk</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/starjogja.png</pic>
+	</Radio>
+    <Radio id="3">
+		<fullname>Swaragama 101.7 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/swaragama456789</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/swaragama.png</pic>
+	</Radio>
+    <Radio id="4">
+		<fullname>Eltira 102.1 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/eltira1021</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/eltira.png</pic>
+	</Radio>
+    <Radio id="5">
+		<fullname>Rakosa 105,3 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/rakosa787878</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/rakosa.png</pic>
+	</Radio>
+    <Radio id="6">
+		<fullname>RadioQ 88,3 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/qradio34567</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/qradio.png</pic>
+	</Radio>
+    <Radio id="7">
+		<fullname>MBS 92,7 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/mbs</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/mbsfm.png</pic>
+	</Radio>
+    <Radio id="8">
+		<fullname>SoloRadio 92,9 FM</fullname>
+        <city>Solo</city>
+		<mount>http://jgj.jogjastreamers.com:8000/soloradio151515</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/soloradio.png</pic>
+	</Radio>
+    <Radio id="9">
+		<fullname>Salma 103,3 FM</fullname>
+        <city>Klaten</city>
+		<mount>http://jgj.jogjastreamers.com:8000/salma</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/salmaradio.png</pic>
+	</Radio>
+    <Radio id="10">
+		<fullname>Impact 100,5 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/impactfm</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/impact.png</pic>
+	</Radio>
+    <Radio id="11">
+		<fullname>Geronimo 106,1 FM </fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/geronimo67890</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/geronimo.png</pic>
+	</Radio>
+    <Radio id="12">
+		<fullname>Immanuel 101,1 FM</fullname>
+        <city>Solo</city>
+		<mount>http://jgj.jogjastreamers.com:8000/immanuel</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/immanuel.png</pic>
+	</Radio>
+    <Radio id="13">
+		<fullname>KR Radio 107,2 Mhz</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/kr13579</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/krradio.png</pic>
+	</Radio>
+    <Radio id="14">
+		<fullname>Aquarius Musikindo</fullname>
+        <city>Jakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/aquarius36511</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/aquarious.png</pic>
+	</Radio>
+    <Radio id="15">
+		<fullname>Karysma 100,3 Mhz</fullname>
+        <city>Boyolali</city>
+		<mount>http://jgj.jogjastreamers.com:8000/karysma112255</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/karysma.png</pic>
+	</Radio>
+    <Radio id="16">
+		<fullname>JogjaFamily 100,9 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/jogjafamily</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/jogjafamily.png</pic>
+	</Radio>
+    <Radio id="17">
+		<fullname>Buana Asri 94,7 FM</fullname>
+        <city>Sragen</city>
+		<mount>http://jgj.jogjastreamers.com:8000/buanaasri</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/buanaasri.png</pic>
+	</Radio>
+    <Radio id="18">
+		<fullname>Dian Swara 98,2 FM</fullname>
+        <city>Purwokerto</city>
+		<mount>http://jgj.jogjastreamers.com:8000/dianswara</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/dianswara.png</pic>
+	</Radio>
+    <Radio id="19">
+		<fullname>RGM Global 100,7 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/rgmfm</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/rgmglobal.png</pic>
+	</Radio>
+    <Radio id="20">
+		<fullname>Handayani 106,6 FM</fullname>
+        <city>Yogyakarta</city>
+		<mount>http://jgj.jogjastreamers.com:8000/handayanifm</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/handayani.png</pic>
+	</Radio>
+    <Radio id="21">
+		<fullname>Unimma 87,60 FM</fullname>
+        <city>Magelang</city>
+		<mount>http://jgj.jogjastreamers.com:8000/unimmafm</mount>
+		<pic>http://www.jogjastreamers.com/iphpic/unimma.png</pic>
+	</Radio>
+</Playlist>

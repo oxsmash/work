@@ -1,0 +1,329 @@
+/*---------------------------------------------------
+Small tablet landscape / Tablet potrait
+----------------------------------------------------*/
+@media only screen and (max-width: 800px) {
+
+	/* header */
+	.bg,
+	.line-separator,
+	#header,
+	.header-container{width: 700px !important;}	
+	#header .pointer img{width: 340px !important;}
+	
+	
+	.navbar{margin: 10px 0 0 !important;}
+	.navbar td{}
+	.navbar a{margin-right: 20px;}
+	
+	
+	/* slider */
+	#tabs,
+	#tabs-1,
+	#tabs-2{
+		width: 700px !important;
+		margin: 0 !important;
+		padding: 10px 0 !important;
+	}
+	.ui-tabs .ui-tabs-nav li {
+		padding: 5px 0 !important;
+	}
+	.boxgrid{
+		width: 120px !important;
+	}
+	#jogjastreamer{
+		margin: 0 !important;
+		left: 20px;
+		font-weight: normal !important;
+		font-size: 15px;
+	}
+	#cari{
+		width: 100px !important;
+	}
+	.combo{}
+	
+	/* anythingSlider navigasi */
+	.anythingSlider-metallic .forward {
+		right: -23px !important;
+	}
+	.anythingSlider-metallic .back {
+		left: -23px !important;
+	}
+	
+	
+	/* banner */
+	table.banner,
+	table.banner-bottom{
+		width: 700px !important;
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin: 20px 0;
+	}
+	table.banner td{
+		padding-left: 10px !important;
+	}
+	table.banner td:first-child{
+		padding: 0 !important;
+	}
+	table.banner img{
+		width: 345px !important;
+	}
+	
+	
+	/* main content */
+	table.m-box,
+	table.main-container{
+		width: 700px !important; 
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	table.m-box table{
+		border-collapse: collapse;
+		border-spacing: 0; 
+	}
+	
+	
+	/* sidebar */	
+	td.left-bar,
+	td.main-content,
+	td.right-bar{float: left;padding:0!important;}
+	td.left-bar{width: 200px !important;}
+	
+	td.main-content{width: 300px !important;}
+	td.main-content embed.pointer ,
+	td.main-content .pointer img{margin-left: 10px;width: 132px !important;}
+	
+	td.right-bar{width: 200px !important;}
+	td.right-bar table{width: 200px !important;}
+	
+	
+	/* twitter */
+	.twitter-holder{padding: 0 !important;}
+	.twtr-doc{width: 200px !important;}
+	.banneratas{width: 350px !important;
+	height:80px !important;}
+	
+	/* footer */
+	#footerwrap,
+	#footer{width: auto !important;left: 0; right: 0;}
+	.footer-container{width: 700px !important;}
+	.bannerfooter{
+	display: none !important;
+	}
+	.mejs-audio {
+	width: 390px !important;
+	}
+	.mobiletext{
+	display: none !important;
+	}
+	
+	.banneratasfooter{
+	margin-left: 1px;
+	}
+	.bannertengah{
+	width:145;
+	height:325;
+				}
+	#element_to_pop_up {
+	left: 20px !important;
+	width: 90% !important;
+	text-align:inherit
+	}
+	.boxcaption{
+	font-size: 8px !important;
+ 			}
+	.newfooter{
+				width: 700px !important;
+		}	
+		.playerlho{
+		margin-left: 250px;
+		}	
+		.bannerfooternew img{
+		width: 180px !important;
+		height: 60px;
+}
+.citrawebfoot{
+width: 700px !important;
+}
+.mobileapptext{
+font-size: 11px !important;
+margin-left: 70px !important;
+}
+.citrarespon{
+font-size: 11px !important;
+}
+.mejs-controls{
+left: -40px !important;
+}
+	/* clearing */
+	.clearfix{
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	/* header */
+	body{
+	font-size:5px !important;
+	}
+	.bg,
+	.line-separator,
+	#header,
+	.header-container{width: 450px !important;}	
+	#header .pointer img{width: 100px !important;}
+	.header-container img{
+	width: 200px !important;
+	}
+	
+	.navbar{margin: 5px 0 0 !important;}
+	.navbar td{}
+	.navbar a{margin-right: 10px;}
+	
+	
+	/* slider */
+	#tabs,
+	#tabs-1,
+	#tabs-2{
+		width: 450px !important;
+		margin: 0 !important;
+		padding: 5px 0 !important;
+		font-size: 10px;
+	}
+	.ui-tabs .ui-tabs-nav li {
+		padding: 2px 0 !important;
+	}
+	.boxgrid{
+		width: 70px !important;
+	}
+	#jogjastreamer{
+		margin: 0 !important;
+		left: 10px;
+		font-weight: normal !important;
+		font-size: 10px;
+	}
+	#cari{
+		width: 50px !important;
+	}
+	.combo{}
+	
+	/* anythingSlider navigasi */
+	.anythingSlider-metallic .forward {
+		right: px !important;
+	}
+	.anythingSlider-metallic .back {
+		left: -17px !important;
+	}
+	
+	
+	/* banner */
+	table.banner,
+	table.banner-bottom{
+		width: 450px !important;
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin: 20px 0;
+	}
+	table.banner td{
+		padding-left: 10px !important;
+	}
+	table.banner td:first-child{
+		padding: 0 !important;
+	}
+	table.banner img{
+		width: 200px !important;
+	}
+	
+	
+	/* main content */
+	table.m-box,
+	table.main-container{
+		width: 450px !important; 
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	table.m-box table{
+		border-collapse: collapse;
+		border-spacing: 0; 
+	}
+	
+	
+	/* sidebar */	
+	td.left-bar,
+	td.main-content,
+	td.right-bar{float: left;padding:0!important;}
+	td.left-bar{width: 200px !important;}
+	
+	td.main-content{width: 200px !important;}
+	td.main-content embed.pointer ,
+	td.main-content .pointer img{margin-left: 10px;width: 132px !important;}
+	
+	td.right-bar{width: 100px !important;}
+	td.right-bar table{width: 100px !important;}
+	
+	
+	/* twitter */
+	.twitter-holder{padding: 0 !important;}
+	.twtr-doc{width: 200px !important;font-size: 10px;}
+	station_widget{
+	font-size: 10px  !important;
+	width: 10px !important;
+	}
+	.banneratas{width: 150px !important;
+	height:80px !important;}
+	
+	/* footer */
+	#footerwrap,
+	#footer{width: auto !important;left: 0; right: 0;}
+	.footer-container{width: 450px !important;}
+	.bannerfooter{
+	display: none !important;
+	}
+	.mejs-audio {
+	width: 190px !important;
+	}
+	.mobiletext{
+	display: none !important;
+	}
+	
+	.banneratasfooter{
+	margin-left: 1px;
+	}
+	.bannertengah{
+	width:95;
+	height:225;
+				}
+	#element_to_pop_up {
+	left: 10px !important;
+	width: 90% !important;
+	text-align:inherit
+	}
+	.boxcaption{
+	font-size: 5px !important;
+ 			}
+	.newfooter{
+				width: 450px !important;
+		}	
+		.playerlho{
+		margin-left: 250px;
+		}	
+		.bannerfooternew img{
+		width: 180px !important;
+		height: 60px;
+}
+.citrawebfoot{
+width: 45px !important;
+}
+.mobileapptext{
+display: none !important;
+}
+.citrarespon{
+font-size: 11px !important;
+}
+.mejs-controls{
+left: -40px !important;
+}
+	/* clearing */
+	.clearfix{
+		clear: both;
+	}
+}

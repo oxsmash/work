@@ -1,0 +1,55 @@
+	<?php
+						
+							
+							
+							 $cmdBannerBawah = "SELECT * FROM cni_banner 
+											WHERE letak_banner = '2' 
+											AND status_banner = '1' 
+											AND (selesai_banner >= '".$timeHariIni."'   
+												AND mulai_banner <= '".$timeHariIni."')
+											AND (limit_banner > jumlah_show)
+											AND tgl_show = '".$timeHariIni."'   
+											ORDER BY rand() 
+											LIMIT 1
+											
+											";
+										
+										
+							$resBannerBawah = mysql_query($cmdBannerBawah);
+							
+							while($brsBannerBawah = mysql_fetch_array($resBannerBawah)) {
+								$link = "";
+								if (trim($brsBannerBawah['link_banner'])=="loadJoin()") {
+									$link = 'onclick=loadJoin()';
+								} else {
+									$link = 'onclick=window.open("klik_banner.php?id='.$brsBannerBawah[banner_id].'");';
+								}
+								if($brsBannerBawah['tipe'] == 'application/x-shockwave-flash'  ) {
+									$link = "";	
+									echo '										
+										<a '.$link.' >
+											<embed name="flashfile" src="images/banner/'.$brsBannerBawah['file_banner'].'" wmode="transparent" menu="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100%" height="90">
+										
+										</a>';
+									
+									
+								
+								}else {
+									
+									echo "<a ".$link." class='pointer'><img border='0' src='images/banner/".$brsBannerBawah['file_banner']."'></a>";
+									
+								}
+							
+								$cmdUpdateBawah = "UPDATE cni_banner SET 
+												tgl_show = '".date("Y-m-d")."',
+												jumlah_show = jumlah_show + 1 
+												WHERE 	banner_id = '".$brsBannerBawah[banner_id]."'";
+												
+								mysql_query($cmdUpdateBawah);	
+								
+								log_banner($brsBannerBawah[banner_id]);
+														
+							}
+							
+						
+						?>

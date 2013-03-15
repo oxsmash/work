@@ -1,0 +1,37 @@
+<graph  canvasBgColor='FFFFFF' canvasBgAlpha='#E8CC00' canvasBaseColor='FFFFFF' canvasBaseDepth='1' canvasBgDepth='1' showCanvasBg='1' showCanvasBase='1' xAxisName='Company' yAxisName='Total' yAxisMinValue='-10' yAxisMaxValue='10' shownames='1' formatNumberScale='0' decimalPrecision='0' divLineDecimalPrecision='2' limitsDecimalPrecision='2' chartRightMargin='30' showShadow='0' shadowColor='#7FA2F7' shadowAlpha='50' shadowXShift='10' shadowYShift='10'><categories>
+<category  name='Djarum'/>
+
+<category  name='Sampoerna'/>
+
+<category  name='Gudang Garam'/>
+
+<category  name='Bentoel'/>
+
+<category  name='Nojorono'/>
+
+</categories>
+
+<dataset seriesName='Positif' color='0260ff'>
+<set value='0' link='javascript:gotoNewsClip("Djarum","tn","2")'/>
+<set value='0' link='javascript:gotoNewsClip("Sampoerna","tn","2")'/>
+<set value='0' link='javascript:gotoNewsClip("Gudang Garam","tn","2")'/>
+
+<set value='0' link='javascript:gotoNewsClip("Bentoel","tn","2")'/>
+<set value='0' link='javascript:gotoNewsClip("Nojorono","tn","2")'/>
+</dataset>
+<dataset seriesName='Netral' color='d6d6d6'>
+<set value='6' link='javascript:gotoNewsClip("Djarum","tn","0")'/>
+<set value='4' link='javascript:gotoNewsClip("Sampoerna","tn","0")'/>
+<set value='4' link='javascript:gotoNewsClip("Gudang Garam","tn","0")'/>
+<set value='4' link='javascript:gotoNewsClip("Bentoel","tn","0")'/>
+<set value='4' link='javascript:gotoNewsClip("Nojorono","tn","0")'/>
+</dataset>
+<dataset seriesName='Negatif' color='e32500'>
+<set value='0' link='javascript:gotoNewsClip("Djarum","tn","-2")'/>
+<set value='0' link='javascript:gotoNewsClip("Sampoerna","tn","-2")'/>
+<set value='0' link='javascript:gotoNewsClip("Gudang Garam","tn","-2")'/>
+<set value='0' link='javascript:gotoNewsClip("Bentoel","tn","-2")'/>
+<set value='0' link='javascript:gotoNewsClip("Nojorono","tn","-2")'/>
+</dataset>
+
+</graph>

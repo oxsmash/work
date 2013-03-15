@@ -1,0 +1,67 @@
+var newElem = document.createElement("option");
+newElem.text = "Freddy";
+newElem.value = "Freddy Mercury";
+frame->getElementById("test").options.add  (newElem)
+
+
+Array("A") 
+k=new Array(new Array("A"),Array("B"))
+
+
+<textarea id="A" rows=10 cols=20></textarea>
+<input type="button" onclick="test()"/>
+<input type="button" onclick="test2()"/>
+
+
+ function test(){
+k=eval(document.getElementById("A").value)
+}
+function test2(){
+alert(k[0][0])
+}
+
+
+k=new Array(new Array("A"),Array("B"))
+
+
+
+
+
+
+function cap(e){
+b=document.getElementById("A")
+b.value=e.pageX
+}
+
+mPos.prototype.setE=function(e){
+this.posX=e.pageX
+this.posY=e.pageY
+}
+mPos.prototype.getX=function(){
+return this.posX
+}
+mPos.prototype.getY=function(){
+return this.posY
+}
+function _mPos(){
+this.posX=0
+this.posY=0
+}
+
+mPos=new _mPos()
+
+function getPos(){
+alert(mPos.posX)
+}
+
+function getE(e){
+mPos.setE(e)
+}
+
+
+function test(){
+m=new getE()
+b=document.getElementById("A")
+b.value=m.posX
+}
+document.onmousemove=getE

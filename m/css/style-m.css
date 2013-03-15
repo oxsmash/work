@@ -1,0 +1,55 @@
+body {
+	background: #000000;
+	margin:0;}
+td {
+	font-family:arial,georgia;font-size:12px;}
+a {
+	text-decoration:none;}
+a:hover{
+	text-decoration:underline;}
+object {
+	outline:none;}
+.body{
+	margin:0 auto;}
+.footer{
+	margin:0 auto;}
+.merah{
+	color:#A72A2E;}
+.putih {
+	color:#fff;}
+.hijau {
+	color:#9ABF4D}
+.hijau-tua{
+	color:#02621A}
+.abu {
+	color:#989898}
+.merah {
+	color:#AC3030}
+.orange{
+	color:#EC9D1E}
+.hitam{
+	color:#000000;}
+.f-10 {
+	font-size:10px;}
+.f-11 {
+	font-size:11px;}
+.f-12 {
+	font-size:12px;}
+.f-13 {
+	font-size:13px;}
+.f-15 {
+	font-size:15px;}
+.f-18 {
+	font-size:18px;}
+.f-20 {
+	font-size:20px;}
+.f-georgia{
+	font-family:georgia;}
+.padlist{
+	padding:0px 0px 5px 0px;}
+.putih a,td{
+	color:#DFDFDF;}
+.abu a {
+	color:#EC9D1E}
+.pointer{
+	cursor:pointer;}

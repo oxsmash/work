@@ -1,0 +1,547 @@
+.agak_besar
+{
+font-family: Verdana, Tahoma;
+font-size: 13px;
+color: #000000;
+}
+
+.lebih_kecil
+{
+font-family: Verdana, Tahoma;
+font-size: 10px;
+color: #000000;
+}
+
+.kotak_atas
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+}
+
+.kepala_judul
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+}
+
+.kecil {
+  	font-family: Verdana, Tahoma;
+  	font-size: 11px;
+  	color: #000000;
+}
+
+.merah {
+  	font-family: Verdana, Tahoma;
+  	font-size: 11px;
+  	color: #A80202;
+}
+
+
+.kepala_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 14px;
+color: #000000;
+}
+
+
+.kotak
+{
+	padding: 3px;
+	color: black;
+	border-right: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	background-color: #ebebeb;	
+}
+
+.kotak_error
+{
+	padding: 3px;
+	color: red;
+	border: 1px solid #000000;
+	background-color: #CCCCCC;	
+}
+
+.kotak_submenu_atas_dalam
+{
+	font-family: Verdana, Tahoma;
+  	font-size: 12px;
+	padding: 3px;
+	color: black;	
+	border-bottom: 1px solid #000000;
+	background-color: #ADC3E8;	
+}
+
+.kotak_biru
+{
+	padding: 10px;
+	color: black;	
+	border: 1px solid #818181;
+	background-color: #ADC3E8;	
+}
+
+.kotak_submenu_bawah_dalam
+{
+	font-family: Verdana, Tahoma;
+  	font-size: 12px;
+  	padding: 3px;
+	color: black;	
+	background-color: #CCCCCC;	
+	border-bottom: 1px solid #000000;
+}
+
+.garis_bawah
+{
+	font-family: Verdana, Tahoma;
+  	font-size: 12px;
+  	padding: 3px;
+	color: black;	
+	background-color: #CCCCCC;	
+	border-bottom: 1px solid #000000;
+}
+
+.konten
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+}
+
+
+.kotak_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #E5FBFF;
+border: 1px solid #A0A0A0;
+}
+
+.kotak_konten_dalam
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #F5F5F5;
+border: 1px solid #A0A0A0;
+}
+
+.kotak_konten_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #EEEEEE;
+border: 1px solid #A0A0A0;
+}
+
+.list_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #F2F2F2;
+border-bottom: 1px dotted #B3B3B3;
+}
+
+
+.tgl_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 9px;
+color: red;
+}
+
+.indeks_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 12px;
+color: #000000;
+}
+
+
+.kotak_gb
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #E8E3FB;
+border: 1px solid #A0A0A0;
+}
+
+
+.kotak_polling
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #E8DABF;
+border: 1px solid #A0A0A0;
+}
+
+.kotak_artikel
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #E7F2FD;
+border: 1px solid #A0A0A0;
+}
+
+.kotak_agenda
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #FAE3EB;
+border: 1px solid #A0A0A0;
+}
+
+.ria_berita
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #FFC2C2;
+}
+
+.ria_guest
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #EAEAEA;
+}
+
+.ria_agenda
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #B8DCAF;
+}
+
+.ria_foto
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #C9DDFF;
+}
+
+.ria_artikel
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #E5FBFF;
+}
+
+
+.ria_polling
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+padding: 2px;
+background-color: #E8DABF;
+}
+
+
+
+.kotak_galeri
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #E1EDDE;
+border: 1px solid #A0A0A0;
+}
+
+
+.navigasi
+{
+font-family: Verdana, Tahoma;
+font-size: 11px;
+color: #000000;
+background-color: #CDCDCD;
+padding: 2px;
+border: 1px solid #A0A0A0;
+}
+
+.box_inputan_rodo
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+height: 18;
+color: #000000;
+background-color: #E8E3FB;
+text-decoration: none;
+border-top: 1px solid #E8E3FB;
+border-left: 1px solid #E8E3FB;
+border-right: 1px solid #E8E3FB;
+border-bottom: 1px solid #000000;
+}
+
+
+.box_inputan2
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #000000;
+background-color: #F5F5F5;
+text-decoration: none;
+border: 1px solid #000000;
+}
+
+.box_inputan
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+height: 18;
+color: #000000;
+background-color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #000000;
+}
+
+
+.tombol
+{
+	font-family: Arial,Verdana, Tahoma;
+	font-size: 11px;
+	color: #000000	;
+	background-color: #BBBABA;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #C2C096;
+}
+
+.tombol_batal
+{
+font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #000000;
+background-color: red;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid #000000;
+}
+
+
+.textfield 
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #000000;
+background-color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #FFFFFF;
+width: 60px;
+}
+
+.cari
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #000000;
+background-color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #FFFFFF;
+}
+
+
+
+.body
+{
+  font-family: Verdana, Tahoma;
+  font-size: 12pt;
+  color: black;
+  line-height: 9pt;
+}
+
+select
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #000000;
+background-color: #FFFFFF;
+text-decoration: none;
+border: 1px solid #FFFFFF;
+}
+
+input
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #000000;
+text-decoration: none;
+}
+
+body
+{
+  font-family: Verdana, Tahoma;
+  font-size: 11px;
+  color: #000000;
+}
+
+td
+{
+  font-family: Verdana, Tahoma;
+  font-size: 11px;
+  color: #000000;
+}
+
+.td_header
+{
+  font-family: Verdana, Tahoma;
+  font-size: 12px;
+  color: #000000;
+}
+
+.atas_tabel
+{
+  font-family: Verdana, Tahoma;
+  font-size: 11px;
+  color: #000000;
+}
+
+p
+{
+  font-family: Verdana, Tahoma;
+  font-size: 11px;
+  color: #000000;
+}
+
+.inputpesan {
+	background-color:#ffffff;
+	border: 1px solid #000000;
+	font-family: Verdana,Verdana, Arial, MS Sans serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+a:active { text-decoration: none; color: black }
+a:link { text-decoration: none; color: black }
+a:visited { text-decoration: none; color: black }
+a:hover { text-decoration: underline; color: #252679 }
+
+.mainlevel-topnav {
+
+	color: #ebebeb;
+	width: 0;
+        margin-left: -1px!important;
+	margin-left: -4px;
+	}
+
+a.mainlevel-topnav {
+	position: relative;
+	width: 175px;
+	display:block;
+	background: #ebebeb;
+	padding: 2px 6px 2px 6px!important;
+ 	padding: 2px 6px 2px 6px;
+	color: #2A3843;
+	border-right: 5px solid #2A3843;
+        border-bottom: 1px solid #2A3843;
+        margin: 0 0 0 0;
+        font-weight: normal;
+	}
+
+a.mainlevel-topnav:hover {
+ 	width: 175px;
+	display:block;
+	color: #000000;
+	background:  #ffffff;
+	border-right: 5px solid #BBBABA;
+        border-bottom: 1px solid #ccc;
+	padding: 2px 6px 2px 6px!important;
+ 	padding: 2px 6px 2px 6px;
+ 	font-weight: normal;
+ 	text-decoration: none;
+	}
+
+
+
+
+ 
+.judul_menu {
+ 	color: #000000;
+	background:  #ebebeb;
+	padding: 2px 6px 2px 6px!important;
+ 	padding: 2px 6px 2px 6px;
+ 	font-weight: bold;
+ 	text-decoration: none;
+	}
+	
+.kotak_putih {
+ 	color: #FBDFBE;
+	background:  #E5E5E5;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding: 2px 6px 2px 6px!important;
+ 	padding: 2px 6px 2px 6px;
+ 	font-weight: bold;
+ 	text-decoration: none;
+	}
+
+.logintext
+{
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Tahoma;
+	FONT-SIZE: 11px;
+	BORDER-STYLE: solid;
+	BORDER-COLOR: #888888;
+	BORDER-WIDTH: 1px;
+	WIDTH: 123px;
+	PADDING: 3px 2px 2px 2px;
+	MARGIN: 0px;
+	BACKGROUND: URL(../images/icon_user.gif) no-repeat;
+	BACKGROUND-POSITION: 1px 1px;
+	BACKGROUND-COLOR: #FFFFFF;
+	PADDING-LEFT: 18px;
+	VERTICAL-ALIGN: middle;
+}
+
+.yellowbutton
+{
+	BORDER: solid 0 #FFFFFF;
+	BACKGROUND: URL(../images/yellowbuttonbg.gif) no-repeat;
+	HEIGHT: 21px;
+	WIDTH: 64px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Tahoma;
+	FONT-SIZE: 11px;
+	MARGIN: 0px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    vertical-align:middle;
+}
+
+#jam {
+	font-size:35px;
+	color:#005E22;}
+#chatMenu {
+	padding:8px;
+	width:600px;
+	height:auto;
+	border:1px solid #999;
+	background-color:#222;}
+#chatMenu #chatIsi {
+	height:350px;
+	width:100%;
+	overflow:auto;}
+#ajaxChatForm {
+	padding:0;
+	margin:0;}

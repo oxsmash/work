@@ -1,0 +1,20 @@
+insertNewChild(parentId,itemId,itemText,itemActionHandler,image1,image2,image3,optionStr,children)
+create new node as a child to specified with parentId
+Object: dhtmlXTreeObject
+Topic(s):
+# File required:dhtmlxtree.jsparentId - parent node id
+# itemId - new node id
+# itemText - new node label
+# itemActionHandler - function fired on node select event (optional)
+# image1 - image for node without children; (optional)
+# image2 - image for closed node; (optional)
+# image3 - image for opened node (optional)
+# optionStr - options string (optional)
+# children - node children flag (for dynamical trees) (optional)
+
+
+script>  tree=new dhtmlXTreeObject('treeBox',"100%","100%",0); ... tree.insertNewChild(0,1,"New Node 1",0,0,0,0,"SELECT,CALL,TOP,CHILD,CHECKED"); tree.insertNewNext(1,2,"New Node 2",0,0,0,0,"CHILD,CHECKED"); </script>
+
+
+untuk membuka menutup tree
+getOpenState(itemId)

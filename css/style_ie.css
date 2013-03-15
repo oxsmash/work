@@ -1,0 +1,22 @@
+.bm_itouch {
+	margin-right:5px;padding:19px 56px 0 0;height:54px;width:150px;}
+.bm_android {
+	margin-right:5px;padding:19px 56px 0 0;height:54px;width:150px;}
+.bm_bb {
+	margin-right:5px;padding:19px 56px 0 0;height:54px;width:150px;}
+#footerwrap{
+  position: absolute;      
+  left: 15%;
+  top: expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+}
+audio{
+z-index: 25000;
+}
+#container{
+height: 650px;
+
+}
+div>element_to_pop_up {
+position: absolute;      
+display: block;
+}

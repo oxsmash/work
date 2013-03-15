@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^view50$ ?limit=50 [L]
+RewriteRule ^view20$ ?limit=20 [L]
+RewriteRule ^view10$ ?limit=10 [L]
+RewriteRule ^blocked$ coba.php [L]
+RewriteRule ^([-0-9a-z]+)$ ?q=$1 [L]
+Options -Indexes

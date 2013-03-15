@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<playlist>
+        <updated>2009-04-29T12:33:53</updated>
+        <server>http://jgj.jogjastreamers.com:8000/</server>
+        <list>
+                <radio>
+                        <fullname>aquarius</fullname>
+                        <mount>aquarius36511</mount>
+						<id>24</id>
+                </radio>
+                <radio>
+                        <fullname>geronimo fm</fullname>
+                        <mount>geronimo67890stereo</mount>
+						<id>20</id>
+                </radio>
+                <radio>
+                        <fullname>eltira fm</fullname>
+                        <mount>eltira1021stereo</mount>
+						<id>10</id>
+                </radio>
+        </list>
+</playlist>
